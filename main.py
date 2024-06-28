@@ -10,6 +10,15 @@ def main():
     Code Your Program here
     ########################################
     """
+    
+    if number1 < number2 or number1 < number3:
+        min_value = number1
+    elif number2 < number3:
+        min_value = number2
+    else:
+        min_value = number3
+        
+    print(f'{number1} {number2} {number3}\n{min_value}')
 
     ########################################
     # Do not delete the return statement
